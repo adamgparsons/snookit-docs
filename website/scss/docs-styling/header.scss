@@ -1,0 +1,24 @@
+.fixedHeaderContainer {
+  background-color: $white;
+  padding: $spacing-0;
+  position: relative;
+
+  .wrapper {
+    padding: $spacing-4;
+    padding-left: $spacing-4;
+    border-bottom: 2px solid $grey-300;
+    margin: $spacing-0;
+    max-width: 100%;
+  }
+}
+
+.toc {
+  padding: $spacing-0;
+}
+
+.headerTitle {
+  font-size: $font-size-4;
+  color: $grey-700;
+  font-weight: $font-weight-bold;
+  // line-height: $line-height-default;
+}

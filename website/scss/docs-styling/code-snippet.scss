@@ -1,0 +1,62 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
+
+.hljs {
+  font-family: "Fira Code", monospace;
+  font-size: $font-size-6;
+  line-height: 1.5;
+  background-color: $grey-100;
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 48px;
+  padding-bottom: $spacing-6;
+  margin-bottom: $spacing-9;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word;
+}
+
+pre {
+  position: relative;
+}
+
+pre .btnIcon {
+  position: absolute;
+  top: 8px;
+  z-index: 2;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0;
+  color: #fff;
+  background-color: transparent;
+  height: 30px;
+  transition: all 0.25s ease-out;
+}
+
+pre .btnIcon:hover {
+  text-decoration: none;
+  color: $blue;
+}
+.btnIcon__body {
+  align-items: center;
+  display: flex;
+}
+
+.btnIcon svg {
+  fill: $grey-800;
+  margin-right: 0.4em;
+}
+
+.btnIcon__label {
+  font-size: $font-size-7;
+  color: $grey-700;
+}
+
+.btnClipboard {
+  right: 8px;
+}
+
+.code-highlight {
+  font-family: "Fira Code", monospace;
+  background-color: $lightest-blue;
+}

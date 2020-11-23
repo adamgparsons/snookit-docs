@@ -1,0 +1,95 @@
+// Black and white
+$black: #000 !default;
+$white: #fff !default;
+$transparent: transparent !default;
+
+// Grey
+$grey-900: #1a202c !default;
+$grey-800: #2d3748 !default;
+$grey-700: #4a5568 !default;
+$grey-600: #718096 !default;
+$grey-500: #a0aec0 !default;
+$grey-400: #cbd5e0 !default;
+$grey-300: #e2e8f0 !default;
+$grey-200: #edf2f7 !default;
+$grey-100: #f7fafc !default;
+
+// Red
+$dark-red: #e7040f !default;
+$red: #ff4136 !default;
+$light-red: #ff725c !default;
+$washed-red: #ffdfdf !default;
+
+// Orange
+$orange: #ff6300 !default;
+$gold: #ffb700 !default;
+
+// Yellow
+$yellow: #ffd700 !default;
+$light-yellow: #fbf1a9 !default;
+$washed-yellow: #fffceb !default;
+
+// Purple
+$purple: #5e2ca5 !default;
+$light-purple: #a463f2 !default;
+
+// Pink
+$dark-pink: #d5008f !default;
+$hot-pink: #ff41b4 !default;
+$pink: #ff80cc !default;
+$light-pink: #ffa3d7 !default;
+$dark-green: #137752 !default;
+
+// Green
+$green: #19a974 !default;
+$light-green: #9eebcf !default;
+$washed-green: #e8fdf5 !default;
+
+// Blue
+$navy: #001b44 !default;
+$dark-blue: #00449e !default;
+$blue: #357edd !default;
+$light-blue: #96ccff !default;
+$lightest-blue: #cdecff !default;
+$washed-blue: #f6fffe !default;
+
+// color map used to  produce utility classes
+$color-map: (
+  black: $black,
+  white: $white,
+  transparent: $transparent,
+  grey-900: $grey-900,
+  grey-800: $grey-800,
+  grey-700: $grey-700,
+  grey-600: $grey-600,
+  grey-500: $grey-500,
+  grey-400: $grey-400,
+  grey-300: $grey-300,
+  grey-200: $grey-200,
+  grey-100: $grey-100,
+  dark-red: $dark-red,
+  red: $red,
+  light-red: $light-red,
+  washed-red: $washed-red,
+  orange: $orange,
+  gold: $gold,
+  yellow: $yellow,
+  light-yellow: $light-yellow,
+  washed-yellow: $washed-yellow,
+  purple: $purple,
+  light-purple: $light-purple,
+  dark-pink: $dark-pink,
+  hot-pink: $hot-pink,
+  pink: $pink,
+  light-pink: $light-pink,
+  dark-green: $dark-green,
+  green: $green,
+  light-green: $light-green,
+  washed-green: $washed-green,
+  navy: $navy,
+  dark-blue: $dark-blue,
+  blue: $blue,
+  light-blue: $light-blue,
+  lightest-blue: $lightest-blue,
+  washed-blue: $washed-blue
+);

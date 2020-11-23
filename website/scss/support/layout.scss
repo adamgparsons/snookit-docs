@@ -1,0 +1,48 @@
+$spacing-0: 0 !default; // 0px
+$spacing-1: 0.125rem !default; // 2px
+$spacing-2: 0.25rem !default; // 4px
+$spacing-3: 0.5rem !default; // 8px
+$spacing-4: 1rem !default; // 16px
+$spacing-5: 1.5rem !default; // 24px
+$spacing-6: 2rem !default; // 32px
+$spacing-7: 4rem !default; // 64px
+$spacing-8: 5rem !default; // 80px
+$spacing-9: 8rem !default; // 128px
+$spacing-10: 16rem !default; // 256px
+
+$spacing-map: (
+  0: $spacing-0,
+  1: $spacing-1,
+  2: $spacing-2,
+  3: $spacing-3,
+  4: $spacing-4,
+  5: $spacing-5,
+  6: $spacing-6,
+  7: $spacing-7,
+  8: $spacing-8,
+  9: $spacing-9,
+  10: $spacing-10
+);
+
+$breakpoint-not-small: "screen and (min-width: 30em)" !default; // min-width: 480px
+$breakpoint-medium: "screen and (min-width: 30em) and (max-width: 60em)" !default; // min-width: 480px max-width: 960px
+$breakpoint-large: "screen and (min-width: 60em)" !default; // min-width: 960px
+
+$breakpoint-map: (
+  "": "",
+  --ns: $breakpoint-not-small,
+  --md: $breakpoint-medium,
+  --lg: $breakpoint-large
+);
+
+// mixin for looping through breakpoint map and accomodating
+// for classes with or without breakpoints
+@mixin breakpoint($breakpoint) {
+  @if $breakpoint == "" {
+    @content;
+  } @else {
+    @media #{$breakpoint} {
+      @content;
+    }
+  }
+}

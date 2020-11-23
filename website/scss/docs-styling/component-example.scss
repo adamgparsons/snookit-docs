@@ -1,0 +1,15 @@
+.component-example {
+  border: 1px $grey-400 solid;
+  border-radius: 4px 4px 0px 0px;
+  padding-top: $spacing-6;
+  padding-bottom: $spacing-6;
+
+  .component-example__content {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+  }
+}

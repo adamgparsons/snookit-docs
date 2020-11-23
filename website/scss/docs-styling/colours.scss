@@ -1,0 +1,15 @@
+.navPusher .docMainWrapper .mainContainer .colour-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -$spacing-4;
+  margin-right: -$spacing-4;
+
+  .height-8 {
+    height: $spacing-8;
+  }
+
+  .cb-height-width {
+    height: 56px;
+    width: 56px;
+  }
+}

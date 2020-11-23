@@ -1,0 +1,436 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-spacing: 0;
+}
+
+.navPusher .docMainWrapper .mainContainer .colour-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.navPusher .docMainWrapper .mainContainer .colour-container .height-8 {
+  height: 5rem;
+}
+.navPusher .docMainWrapper .mainContainer .colour-container .cb-height-width {
+  height: 56px;
+  width: 56px;
+}
+
+.hljs {
+  font-family: "Fira Code", monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  background-color: #f7fafc;
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 48px;
+  padding-bottom: 2rem;
+  margin-bottom: 8rem;
+  white-space: pre-wrap;
+  /* css-3 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+}
+
+pre {
+  position: relative;
+}
+
+pre .btnIcon {
+  position: absolute;
+  top: 8px;
+  z-index: 2;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0;
+  color: #fff;
+  background-color: transparent;
+  height: 30px;
+  transition: all 0.25s ease-out;
+}
+
+pre .btnIcon:hover {
+  text-decoration: none;
+  color: #357edd;
+}
+
+.btnIcon__body {
+  align-items: center;
+  display: flex;
+}
+
+.btnIcon svg {
+  fill: #2d3748;
+  margin-right: 0.4em;
+}
+
+.btnIcon__label {
+  font-size: 0.75rem;
+  color: #4a5568;
+}
+
+.btnClipboard {
+  right: 8px;
+}
+
+.code-highlight {
+  font-family: "Fira Code", monospace;
+  background-color: #cdecff;
+}
+
+.component-example {
+  border: 1px #cbd5e0 solid;
+  border-radius: 4px 4px 0px 0px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.component-example .component-example__content {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: fit-content;
+}
+
+.fixedHeaderContainer {
+  background-color: #fff;
+  padding: 0;
+  position: relative;
+}
+.fixedHeaderContainer .wrapper {
+  padding: 1rem;
+  padding-left: 1rem;
+  border-bottom: 2px solid #e2e8f0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.toc {
+  padding: 0;
+}
+
+.headerTitle {
+  font-size: 1.25rem;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+.navPusher .docMainWrapper {
+  max-width: 100%;
+}
+.navPusher .docMainWrapper .mainContainer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+}
+.navPusher .docMainWrapper .mainContainer .wrapper {
+  position: relative;
+  left: -5rem;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+}
+@media screen and (max-width: 1024px) {
+  .navPusher .docMainWrapper .mainContainer .wrapper {
+    left: 0px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.navPusher .docMainWrapper .mainContainer .wrapper .post .postHeaderTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #4a5568;
+  margin-top: 1.5rem;
+}
+.navPusher .docMainWrapper .mainContainer p {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+.navPusher .docMainWrapper .mainContainer h2 {
+  color: #4a5568;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+.navPusher .docMainWrapper h3 {
+  color: #4a5568;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.navPusher .docMainWrapper li {
+  margin-left: 1.5rem;
+}
+
+.anchor {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.hash-link {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .docMainWrapper .mainContainer {
+    max-width: 100%;
+    min-width: auto;
+  }
+}
+.docs-next,
+.docs-prev {
+  display: none;
+}
+
+.docsNavContainer {
+  background-color: #f7fafc;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  margin-right: 0;
+}
+@media screen and (max-width: 1024px) {
+  .docsNavContainer {
+    padding-left: 0;
+    padding-top: 0;
+    position: relative;
+  }
+}
+
+.docMainContainer .wrapper {
+  padding: 0 0;
+  margin-left: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .docsNavContainer {
+    height: calc(100vh - 68px);
+    position: relative;
+    top: 0px;
+    height: auto;
+  }
+
+  .navPusher {
+    padding-top: 0;
+  }
+}
+.singleRowMobileNav.navPusher {
+  padding-top: 0;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0px;
+}
+
+.toc .toggleNav ul {
+  padding: 0px;
+  margin-left: 0;
+}
+.toc .toggleNav ul li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.toc .toggleNav ul a {
+  font-size: 1rem;
+}
+@media screen and (max-width: 1024px) {
+  .toc .toggleNav ul a {
+    margin-bottom: 0;
+  }
+}
+.toc .toggleNav ul a:hover {
+  background-color: transparent;
+}
+@media screen and (max-width: 1024px) {
+  .toc .toggleNav ul a {
+    font-size: 1.25rem;
+  }
+}
+.toc .toggleNav ul li.navListItemActive a {
+  color: #357edd;
+  font-weight: 500;
+  border-left: 2px solid #357edd;
+  padding-left: 16px;
+}
+.toc .toggleNav ul .navItem {
+  padding-left: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #2d3748;
+  font-weight: 500;
+}
+@media screen and (min-width: 1024px) {
+  .toc .toggleNav ul .navItem {
+    font-size: 1rem;
+  }
+}
+.toc .toggleNav .navGroup {
+  margin-bottom: 2rem;
+}
+.toc .toggleNav .navGroup .navGroupCategoryTitle {
+  margin-bottom: 1rem;
+  color: #718096;
+  font-weight: 500;
+}
+
+.docsNavContainer .toc .navBreadcrumb {
+  background-color: #f7fafc;
+}
+
+.docsSliderActive .toc section .navGroups {
+  padding-top: 1rem;
+  padding-right: 4rem;
+  padding-bottom: 0;
+  padding-left: 1.5rem;
+}
+
+.docsSliderActive .toc .navBreadcrumb,
+.tocActive .navBreadcrumb {
+  position: relative;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+}

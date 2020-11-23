@@ -1,0 +1,106 @@
+.docsNavContainer {
+  background-color: $grey-100;
+  padding-left: $spacing-4;
+  padding-top: $spacing-6;
+  margin-right: $spacing-0;
+
+  @media screen and (max-width: 1024px) {
+    padding-left: $spacing-0;
+    padding-top: $spacing-0;
+    position: relative;
+  }
+}
+
+.docMainContainer .wrapper {
+  padding: $spacing-0 $spacing-0;
+  margin-left: $spacing-0;
+}
+@media screen and (min-width: 1024px) {
+  .docsNavContainer {
+    height: calc(100vh - 68px);
+    position: relative;
+    top: 0px;
+    height: auto;
+  }
+  .navPusher {
+    padding-top: 0;
+  }
+}
+.singleRowMobileNav.navPusher {
+  padding-top: 0;
+}
+
+.wrapper {
+  margin: $spacing-0;
+  padding: 0px;
+}
+
+.toc .toggleNav {
+  ul {
+    padding: 0px;
+    margin-left: $spacing-0;
+
+    li {
+      padding-top: $spacing-3;
+      padding-bottom: $spacing-3;
+    }
+    a {
+      font-size: $font-size-5;
+
+      @media screen and (max-width: 1024px) {
+        margin-bottom: $spacing-0;
+      }
+
+      &:hover {
+        background-color: transparent;
+      }
+
+      @media screen and (max-width: 1024px) {
+        font-size: $font-size-4;
+      }
+    }
+
+    li.navListItemActive a {
+      color: $blue;
+      font-weight: $font-weight-semibold;
+      border-left: 2px solid $blue;
+      padding-left: 16px;
+    }
+
+    .navItem {
+      padding-left: $spacing-4;
+      font-family: $font;
+      color: $grey-800;
+      font-weight: $font-weight-semibold;
+
+      @media screen and (min-width: 1024px) {
+        font-size: $font-size-5;
+      }
+    }
+  }
+
+  .navGroup {
+    margin-bottom: $spacing-6;
+
+    .navGroupCategoryTitle {
+      margin-bottom: $spacing-4;
+      color: $grey-600;
+      font-weight: $font-weight-semibold;
+    }
+  }
+}
+
+.docsNavContainer .toc .navBreadcrumb {
+  background-color: $grey-100;
+}
+
+.docsSliderActive .toc section .navGroups {
+  padding-top: $spacing-4;
+  padding-right: $spacing-7;
+  padding-bottom: $spacing-0;
+  padding-left: $spacing-5;
+}
+.docsSliderActive .toc .navBreadcrumb,
+.tocActive .navBreadcrumb {
+  position: relative;
+}

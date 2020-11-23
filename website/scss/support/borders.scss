@@ -1,0 +1,10 @@
+// Border size
+$border-width: 1px !default;
+$border-color: $grey-600 !default;
+$border-style: solid !default;
+$border: $border-width $border-color $border-style !default;
+$border-radius-0: 0rem !default; // 0px
+$border-radius-1: 0.0625rem !default; // 1px
+$border-radius-2: 0.125rem !default; // 2px;
+$border-radius-3: 0.1875rem !default; // 3px;
+$border-radius-4: 0.25rem !default; //4px;

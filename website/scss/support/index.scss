@@ -1,0 +1,7 @@
+@import "./reset.scss";
+@import "./colors.scss";
+@import "./layout.scss";
+@import "./typography.scss";
+
+// needs to be after colors as it relies on colors
+@import "./borders.scss";

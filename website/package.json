@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "examples": "docusaurus-examples",
+    "start": "docusaurus-start",
+    "build": "docusaurus-build",
+    "publish-gh-pages": "docusaurus-publish",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version",
+    "sass-compile": "sass --watch --no-source-map scss/index.scss static/css/custom.css",
+    "build-utility-table": "curl -o ./static/js/utility-class-table/input.css https://cdn.jsdelivr.net/npm/snookit@0.0.16/css/snookit.css && cssjson ./static/js/utility-class-table/input.css --output ./static/js/utility-class-table/output.json "
+  },
+  "devDependencies": {
+    "docusaurus": "^1.12.0",
+    "css-to-json": "^2.1.0"
+  },
+  "dependencies": {
+    "sass": "^1.23.0-module.beta.1"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "docs": {
+    "Getting started": [
+      "getting-started/about-the-system",
+      "getting-started/installation"
+    ],
+    "Design settings": [
+      "design-settings/colours",
+      "design-settings/grid",
+      "design-settings/spacing",
+      "design-settings/typography"
+    ],
+    "Components": [
+      "components/buttons",
+      "components/checkboxes",
+      "components/links",
+      "components/lists",
+      "components/radio-buttons",
+      "components/tables",
+      "components/text-area",
+      "components/text-inputs"
+    ],
+    "Utility classes": [
+      "utility-classes/using-utility-classes",
+      "utility-classes/utility-class-list"
+    ]
+  }
+}

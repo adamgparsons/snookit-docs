@@ -1,0 +1,23 @@
+image: node:8.11
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  before_script:
+    - cd website && yarn install
+  script:
+    - yarn run build
+  artifacts:
+    paths:
+      - website/build
+
+
+# connect to vps via ssh
+# rsync to nginx folder
+# restart nginx service
+rsync:
+  stage: deploy
+  script:
+    - echo "Success"
